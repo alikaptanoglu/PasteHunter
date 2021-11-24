@@ -1,4 +1,4 @@
-FROM python:3
+FROM python:3.10.0b2
 
 RUN apt-get update && \
 apt-get -y --no-install-recommends install automake libtool make gcc git python3-pip && \
